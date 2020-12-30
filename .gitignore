@@ -1,5 +1,4 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
+# Byte-compiled / optimized / DLL files_pycache__/
 *.py[cod]
 *$py.class
 
@@ -113,3 +112,6 @@ media/
 # **/migrations/**
 # !**/migrations
 # !**/migrations/__init__.py
+# ignore vim swap files
+*.swp
+*.swo
