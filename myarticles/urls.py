@@ -19,7 +19,7 @@ import articles
 
 
 urlpatterns = [
-    path('articles/', include('articles.urls')),
+    path('', include('articles.urls')),
     path('grappelli/', include('grappelli.urls')),
     path('admin/', admin.site.urls),
 ]

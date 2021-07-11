@@ -1,4 +1,5 @@
-# Byte-compiled / optimized / DLL files_pycache__/
+# Byte-compiled / optimized / DLL files
+__pycache__/
 *.py[cod]
 *$py.class
 
@@ -100,8 +101,8 @@ ENV/
 .mypy_cache/
 
 .DS_Store
-*.sqlite3
-media/
+#*.sqlite3
+#media/
 *.pyc
 *.db
 *.pid
@@ -112,6 +113,22 @@ media/
 # **/migrations/**
 # !**/migrations
 # !**/migrations/__init__.py
-# ignore vim swap files
-*.swp
+
+# vim
+Session.vim
 *.swo
+*.swp
+
+# PyCharm files and folders
+.idea/
+
+# Django cache content
+django_cache/**
+# !django_cache/**
+!django_cache/**/.gitkeep
+
+# media folder with all of items photo and other images
+/media
+
+# ctags
+tags
